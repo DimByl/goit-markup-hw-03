@@ -8,6 +8,29 @@
   --background-color: #2f303a;
   --background-color-secondary: #f5f4fa;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin 0;
+}
+img {
+  display: block;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+.list {
+  list-style: none;
+}
+.link {
+text-decoration: none;
+}
 body {
   font-family: var(--main-font);
   font-size: 14px;
@@ -23,13 +46,9 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--secondary-color);
-  text-decoration: none;
-}
+  }
 .logo-item {
   color: var(--accent-color);
-}
-.navigation-list {
-  list-style-type: none;
 }
 .navigation-link {
   font-weight: 500;
@@ -37,7 +56,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-  text-decoration: none;
 }
 .navigation-link-current {
   font-weight: 500;
@@ -45,14 +63,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-color);
-  text-decoration: none;
 }
 .navigation-link:hover,
 .navigation-link:focus {
   color: var(--accent-color);
-}
-.contactlist {
-  list-style-type: none;
+
 }
 .contact-item {
   font-weight: 500;
@@ -60,7 +75,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color);
-  text-decoration: none;
 }
 .contact-item:hover,
 .contact-item:focus {
@@ -107,9 +121,6 @@ body {
   white-space: nowrap;
   clip: rect(1px 1px 1px 1px);
 }
-.details-section-list {
-  list-style-type: none;
-}
 .details-section-title {
   font-weight: bold;
   font-size: 14px;
@@ -130,9 +141,6 @@ body {
   line-height: 1.16;
   color: var(--secondary-color);
 }
-.what-we-do-title-list {
-  list-style-type: none;
-}
 .what-we-do-image {
   width: 370px;
   height: 294px;
@@ -152,9 +160,6 @@ body {
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-color);
-}
-.ourteam-list {
-  list-style-type: none;
 }
 .ourteam-image {
   width: 270px;
@@ -178,28 +183,19 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color-secondary);
-  text-decoration: none;
-}
-.contact-footer-list {
-  list-style-type: none;
-}
+ }
 .contact-footer-link {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   color: var(--accent-color-secondary);
-  text-decoration: none;
-}
+  }
 .contact-footer-link2 {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-}
-.list-portfolio-buttons {
-  list-style-type: none;
-}
+  }
 .portfolio-button {
   font-weight: 500;
   font-size: 16px;
@@ -225,9 +221,6 @@ body {
 }
 .list-portfolio-images {
   list-style-type: none;
-}
-.list-portfolio-images-items {
-  text-decoration: none;
 }
 .portfolio-image {
   width: 370px;
