@@ -35,10 +35,12 @@ ol {
   font-style: normal;
 }
 .container {
-  max-width: 1630px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 body {
   font-family: var(--main-font);
@@ -47,16 +49,14 @@ body {
 }
 /*=============HEADER============*/
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   margin-bottom: 0px;
   border-bottom: 1px solid #ececec;
 }
 .header .container {
   display: flex;
   align-items: center;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .navigation {
   background: var(--accent-color-secondary);
@@ -125,9 +125,10 @@ body {
 .offer-section {
   background: var(--background-color);
   height: 600px;
+  padding-top: 120px;
+  padding-bottom: 280px;
   padding-left: 200px;
   padding-right: 200px;
-  margin-bottom: 94px;
 }
 .offer-section .container {
   display: flex;
@@ -144,8 +145,8 @@ body {
   color: var(--accent-color-secondary);
   max-width: 696px;
   text-align: center;
-  margin-top: 200px;
-  margin-bottom: 40px;
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
 .order-button {
   min-width: 200px;
@@ -176,7 +177,8 @@ body {
 .details-section .container {
   padding-left: 200px;
   padding-right: 200px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .visually-hidden {
   position: absolute;
@@ -203,7 +205,7 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-color);
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 .details-section-description {
   width: 270px;
@@ -219,15 +221,14 @@ body {
 .what-we-do .container {
   padding-left: 200px;
   padding-right: 200px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .what-we-do-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   color: var(--secondary-color);
-  text-align: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .what-we-do-title-list {
   display: flex;
@@ -247,7 +248,8 @@ body {
 .ourteam .container {
   padding-left: 200px;
   padding-right: 200px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .ourteam {
   background: var(--background-color-secondary);
@@ -258,9 +260,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   color: var(--secondary-color);
-  text-align: center;
-  padding-top: 94px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .ourteam-list {
   display: flex;
@@ -271,6 +271,11 @@ body {
 .ourteam-list-item {
   margin: 15px;
 }
+.ourteam-content {
+  padding-top: 30px;
+  padding-right: 60px;
+  padding-left: 60px;
+}
 .ourteam-title {
   font-style: normal;
   font-weight: 500;
@@ -278,7 +283,7 @@ body {
   line-height: 1.18;
   color: var(--secondary-color);
   text-align: center;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 .ourteam-image {
   width: 270px;
@@ -296,11 +301,11 @@ body {
 .contact-footer .container {
   display: flex;
   flex-direction: column;
-  padding-left: 200px;
-  padding-right: 200px;
+  text-align: left;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .contact-footer {
-  height: 252px;
   background: var(--background-color);
 }
 .footer-logotype {
@@ -309,7 +314,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color-secondary);
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 .contact-footer-item:not(:last-child) {
@@ -330,8 +334,6 @@ body {
 /*=============END-CONTACT-FOOTER===========*/
 /*=============PORTFOLIO-BUTTON===========*/
 .portfolio .container {
-  padding-left: 200px;
-  padding-right: 200px;
   margin-top: 94px;
   margin-bottom: 94px;
 }
@@ -380,6 +382,11 @@ body {
   align-items: center;
   justify-content: center;
   margin: -15px;
+}
+.portfolio-content {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 .list-portfolio-images-items {
   margin: 15px;
