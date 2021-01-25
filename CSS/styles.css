@@ -126,9 +126,10 @@ body {
   background: var(--background-color);
   height: 600px;
   padding-top: 120px;
-  padding-bottom: 280px;
+  padding-bottom: 276px;
   padding-left: 200px;
   padding-right: 200px;
+  margin-bottom: 4px;
 }
 .offer-section .container {
   display: flex;
@@ -178,7 +179,8 @@ body {
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 90px;
+  margin-bottom: 4px;
 }
 .visually-hidden {
   position: absolute;
@@ -221,7 +223,8 @@ body {
 .what-we-do .container {
   padding-left: 200px;
   padding-right: 200px;
-  padding-bottom: 94px;
+  padding-bottom: 90px;
+  margin-bottom: 4px;
 }
 .what-we-do-title {
   font-weight: bold;
@@ -249,7 +252,8 @@ body {
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 90px;
+  margin-bottom: 4px;
 }
 .ourteam {
   background: var(--background-color-secondary);
@@ -334,8 +338,9 @@ body {
 /*=============END-CONTACT-FOOTER===========*/
 /*=============PORTFOLIO-BUTTON===========*/
 .portfolio .container {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 90px;
+  margin-bottom: 4px;
 }
 .list-portfolio-buttons {
   display: flex;
