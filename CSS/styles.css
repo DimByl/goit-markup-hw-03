@@ -250,8 +250,6 @@ body {
 /*=============END-WHAT-WE-DO============*/
 /*=============OURTEAM============*/
 .ourteam .container {
-  padding-left: 200px;
-  padding-right: 200px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -287,7 +285,7 @@ body {
   line-height: 1.18;
   color: var(--secondary-color);
   text-align: center;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .ourteam-image {
   width: 270px;
