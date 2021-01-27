@@ -131,11 +131,8 @@ body {
 
 .offer-section {
   background: var(--background-color);
-  height: 600px;
-  padding-top: 120px;
-  padding-bottom: 276px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .offer-section .container {
   display: flex;
@@ -152,8 +149,7 @@ body {
   color: var(--accent-color-secondary);
   max-width: 696px;
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 .order-button {
   min-width: 200px;
@@ -200,6 +196,7 @@ body {
 .details-section-list {
   display: flex;
   align-items: center;
+  text-align: left;
   justify-content: center;
   margin: -15px;
 }
@@ -212,7 +209,7 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-color);
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .details-section-description {
   width: 270px;
@@ -235,7 +232,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   color: var(--secondary-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .what-we-do-title-list {
   display: flex;
@@ -267,7 +264,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   color: var(--secondary-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .ourteam-list {
   display: flex;
@@ -321,10 +318,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color-secondary);
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .contact-footer-item:not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .contact-footer-link {
   font-weight: normal;
@@ -383,20 +380,24 @@ body {
 }
 /*=============END-PORTFOLIO-BUTTON===========*/
 /*=============PORTFOLIO-IMAGES===========*/
-.list-portfolio-images {
+.list-portfolio-images .container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: -15px;
+  margin: -7px;
 }
 .portfolio-content {
+  text-align: left;
   padding-top: 20px;
   padding-right: 24px;
   padding-left: 24px;
+  padding-bottom: 20px;
 }
 .list-portfolio-images-items {
-  margin: 15px;
+  margin: 7px;
+  display: inline-block;
+  border: 1px solid #eeeeee;
 }
 .portfolio-image {
   width: 370px;
