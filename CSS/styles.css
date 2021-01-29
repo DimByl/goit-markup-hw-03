@@ -70,6 +70,7 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
+  display: block;
 }
 .logo-item {
   color: var(--accent-color);
@@ -89,6 +90,7 @@ body {
   color: var(--secondary-color);
   padding-top: 32px;
   padding-bottom: 32px;
+  display: block;
 }
 .navigation-link-current {
   font-weight: 500;
@@ -98,6 +100,7 @@ body {
   color: var(--accent-color);
   padding-top: 32px;
   padding-bottom: 32px;
+  display: block;
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -267,9 +270,8 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .ourteam-content {
-  padding-top: 30px;
-  padding-right: 57px;
-  padding-left: 57px;
+  padding: 30px 57px 32px 57px;
+  background: #ffffff;
 }
 .ourteam-title {
   font-style: normal;
@@ -392,7 +394,6 @@ body {
 .portfolio-image {
   width: 370px;
   height: 294px;
-  margin-bottom: 20px;
 }
 .portfolio-images-title {
   font-weight: bold;
